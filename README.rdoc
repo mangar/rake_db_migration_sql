@@ -1,0 +1,40 @@
+= RAKE -- DB Migration SQL
+
+
+
+This package contains Rake task called: db migration sql. 
+It's a simple rake task that after running will generate a new directory in your Rails app:
+
+	% RAILS_APP/db/sql
+	
+	
+Inside this directory will be generated for each migration script, generally located in RAILS_APP/db/migration, a new .sql file withe the SQL statement.
+
+
+
+== Installation
+
+Just copy this content to lib dir in your Rails app
+
+
+== Usage
+
+Run the follow rake task:
+
+	% rake db:generate:sql
+
+	
+
+== License
+
+This is available under an MIT-style license.
+
+:include: MIT-LICENSE
+
+
+== Warranty
+
+This software is provided "as is" and without any express or
+implied warranties, including, without limitation, the implied
+warranties of merchantibility and fitness for a particular
+purpose.
